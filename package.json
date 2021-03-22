@@ -9,7 +9,7 @@
   "name": "Clase-34",
   "description": "npm install -g sequelize-cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
