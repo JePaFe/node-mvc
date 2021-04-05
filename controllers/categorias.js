@@ -20,12 +20,12 @@ module.exports = {
         }).catch(error => console.log(error))
     },
     edit: (req, res) => {
-        categoria.findByPk(req.params.id).then(row => {
+        categoria.findByPk(req.paramscate.id).then(row => {
             res.render('categorias/edit', {row})
         }).catch(error => console.log(error))
     },
     update: (req, res) => {
-        categoria.update({ nombre:req.body.nombre}, { where:{id: req.params.id} })
+        categoria.update({ nombre:req.body.nombre}, { where:{id: req.params.id}})
             .then(() => res.redirect('/categorias/' + (req.params.id)))
             .catch(error => console.log(error))
 

@@ -1,3 +1,19 @@
+# Clase 36
+
+npm install express-validator
+
+const { body, validationResult } = require('express-validator')
+
+# Clase 35
+
+sequelize-cli.cmd model:generate --name user --attributes email:string,password:string
+
+sequelize-cli.cmd db:migrate
+
+npm install bcrypt
+
+npm install express-session
+
 # Clase 34
 
 npm init -y
